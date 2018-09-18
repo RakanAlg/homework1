@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<title> My Web Page </title>
+
+
+
+<style type="text/css">
+
+.box
+{
+width:250px;
+height:300px;
+border: 1px solid grey;
+margin-left:50px;
+}
+
+.left
+{
+width:350px;
+height:409px;
+border: 2px solid red;
+margin-left:150px;
+float:left;
+}
+
+.right
+{
+width:350px;
+height:409px;
+border: 2px solid red;
+margin-top:0;
+margin-left:503px;
+
+
+}
+
+
+
+
+</style>
+
+</head>
+
+
+<body>
+<h1  align="center"> Alghamdi, Rakan </h1>
+
+<hr color="green">
+
+<h4 align="center"> Welcome to IS445 Homework 1 </h4>
+
+<center> <img src="image.JPG" height="250"/> </center>
+
+<p></p>
+<p></p>
+<p></p>
+
+<div class="left"><h3 align="center">About Me</br></h3> <u><b style="padding_left:19px;">Education</b></u> </br> 2018, Bachelor of IS, CSULB </br></br> <u><b>Skills</b></u> </br><ol> <li>Python </li> <li>Database by Oracle </li> </ol></br> <b><u> Expectations for this course </u></b> </br> I wan't to learn Python and data base. I wan't to master Oracle for programming. By the end of this course, I expect myslef to be a good web programmer. </div> 
+<div class="right"><h3 align="center">Contact Me </br> </h3> <div class="box"> <h3 align="center"> Name <input type="text" name="textbox1" size="30"> <br> <h3 align="center"> Email <input type="text" name="textbox2" size="30"> <h3 align="center"> Message </br> <textarea cols="25" rows="5"></textarea> </br> <p> <a href="http://www.google.com/"> <button>Send your message</button></p> </div> </div>
+
+
+
+
+</body>
